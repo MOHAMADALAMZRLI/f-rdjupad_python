@@ -5,7 +5,8 @@ def save_to_db(df, db_name, table_name):
     Sparar data i en SQLite-databas.
     """
     connection = sqlite3.connect(db_name)  # Skapa en SQLite-anslutning
-    df.to_sql(table_name, con=connection, if_exists="replace", index=False)  # Spara i databasen
+    df.to_sql(table_name, con=connection, if_exists="replace", index=False)  
+
     connection.commit()
     connection.close()
     print(f"Data has been successfully saved to the {table_name} table in {db_name}")
