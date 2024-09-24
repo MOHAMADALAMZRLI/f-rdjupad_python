@@ -9,9 +9,9 @@ def main():
     """
     Huvudfunktionen för att läsa, filtrera och spara data.
     """
-    # Ange filvägen för CSV-filen och databasen
-    file_path = 'C:/Users/musta/OneDrive/Skrivbord/ds23_f-rdjupad_python-main/kunskapskontroll_2/superstore.csv'
-    db_name = 'C:/Users/musta/OneDrive/Skrivbord/database.db'  # Exempel på korrekt sökväg
+   
+    file_path = 'C:/Users/mohammad/OneDrive/Skrivbord/ds23_f-rdjupad_python-main/kunskapskontroll_2/superstore.csv'
+    db_name = 'C:/Users/mohammad/OneDrive/Skrivbord/database.db' 
   # Ange rätt sökväg till databasen
     table_name = 'Traffic Accidents'
 
